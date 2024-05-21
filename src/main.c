@@ -1,6 +1,5 @@
 #include "main.h"
 
-int x[100];
 int main(int argc, char* argv[]) {
     SDL_Log("Init\n");
 
@@ -35,5 +34,5 @@ int main(int argc, char* argv[]) {
     PlatformDestroy(platform);
     ArenaDestroy(main_arena);
 
-    return 1;
+    return 0;
 }

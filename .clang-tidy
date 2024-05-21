@@ -1,0 +1,4 @@
+WarningsAsErrors: ''
+HeaderFilterRegex: ''
+FormatStyle: 'file'
+Checks: 'llvm-*, -llvm-include-order, -llvm-header-guard, -fuchsia-* -missing-noreturn'
